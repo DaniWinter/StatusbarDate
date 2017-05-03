@@ -31,6 +31,9 @@
 - (void)follow {
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.twitter.com/GewoonDani"]];
 }
+- (void)github {
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://github.com/DaniWinter/StatusbarDate"]];
+}
 @end
 
 // vim:ft=objc

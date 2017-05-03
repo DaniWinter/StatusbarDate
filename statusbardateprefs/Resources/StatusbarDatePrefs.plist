@@ -127,6 +127,20 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>github</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Source is available on GitHub!</string>
+			<key>icon</key>
+			<string>github.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
 			<key>footerText</key>
 			<string>Please consider donating if you like my work!</string>
 		</dict>
