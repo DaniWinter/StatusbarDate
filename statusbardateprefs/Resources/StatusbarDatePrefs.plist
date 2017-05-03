@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Main Switch</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>nl.d4ni.statusbardateprefs</string>
+			<key>key</key>
+			<string>kEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Options:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
+			<key>default</key>
+			<string>MM-dd-yyyy</string>
+			<key>defaults</key>
+			<string>nl.d4ni.statusbardateprefs</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>dateFormat</string>
+			<key>label</key>
+			<string>Date Format</string>
+			<key>validTitles</key>
+			<array>
+				<string>month-day-year</string>
+				<string>day-month-year</string>
+				<string>year-day-month</string>
+				<string>year-month-day</string>
+				<string>month day year</string>
+				<string>day month year</string>
+				<string>year day month</string>
+				<string>year month day</string>
+				<string>month/day/year</string>
+				<string>day/month/year</string>
+				<string>year/day/month</string>
+				<string>year/month/day</string>
+				<string>day month</string>
+				<string>day mon</string>
+				<string>month day</string>
+				<string>mon day</string>
+			</array>
+			<key>validValues</key>
+		  <array>
+				<string>MM-dd-yyyy</string>
+				<string>dd-MM-yyyy</string>
+				<string>yyyy-dd-MM</string>
+				<string>yyyy-MM-dd</string>
+				<string>MM dd yyyy</string>
+				<string>dd MM yyyy</string>
+				<string>yyyy dd MM</string>
+				<string>yyyy MM dd</string>
+				<string>MM/dd/yyyy</string>
+				<string>dd/MM/yyyy</string>
+				<string>yyyy/dd/MM</string>
+				<string>yyyy/MM/dd</string>
+				<string>dd MMMM</string>
+				<string>dd MMM</string>
+				<string>MMMM dd</string>
+				<string>MMM dd</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>For some reason the settings don't always save the first respring..</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>save</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>contact</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Bugs? Let me know!</string>
+			<key>icon</key>
+			<string>mail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>follow</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter!</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please consider donating if you like my work!</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate via PayPal!</string>
+			<key>icon</key>
+			<string>paypal.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>StatusbarDate</string>
+</dict>
+</plist>
