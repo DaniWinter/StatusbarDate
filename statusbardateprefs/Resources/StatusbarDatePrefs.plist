@@ -33,8 +33,6 @@
 		<dict>
 			<key>cell</key>
 			<string>PSLinkListCell</string>
-			<key>PostNotification</key>
-			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
 			<key>default</key>
 			<string>MM-dd-yyyy</string>
 			<key>defaults</key>
@@ -91,6 +89,8 @@
 				<string>MMMM dd, yyyy</string>
 				<string>MMM dd, yyyy</string>
 			</array>
+			<key>PostNotification</key>
+			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -109,8 +109,6 @@
 		<dict>
 			<key>cell</key>
 			<string>PSLinkListCell</string>
-			<key>PostNotification</key>
-			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
 			<key>default</key>
 			<string>1</string>
 			<key>defaults</key>
@@ -131,12 +129,12 @@
 				<string>1</string>
 				<string>2</string>
 			</array>
+			<key>PostNotification</key>
+			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
-			<key>footerText</key>
-			<string>For some reason the settings don't always save the first respring..</string>
 		</dict>
 		<dict>
 			<key>action</key>
