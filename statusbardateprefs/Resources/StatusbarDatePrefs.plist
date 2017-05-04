@@ -123,8 +123,8 @@
 			<string>Time location</string>
 			<key>validTitles</key>
 			<array>
-				<string>Right</string>
 				<string>Left</string>
+				<string>Right</string>
 			</array>
 			<key>validValues</key>
 		  <array>
