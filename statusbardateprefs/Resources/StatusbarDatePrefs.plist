@@ -61,8 +61,12 @@
 				<string>year/month/day</string>
 				<string>day month</string>
 				<string>day mon</string>
+				<string>day month, year</string>
+				<string>day mon, year</string>
 				<string>month day</string>
 				<string>mon day</string>
+				<string>month day, year</string>
+				<string>mon day, year</string>
 			</array>
 			<key>validValues</key>
 		  <array>
@@ -80,8 +84,52 @@
 				<string>yyyy/MM/dd</string>
 				<string>dd MMMM</string>
 				<string>dd MMM</string>
+				<string>dd MMMM, yyyy</string>
+				<string>dd MMM, yyyy</string>
 				<string>MMMM dd</string>
 				<string>MMM dd</string>
+				<string>MMMM dd, yyyy</string>
+				<string>MMM dd, yyyy</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>nl.d4ni.statusbardateprefs</string>
+			<key>key</key>
+			<string>timeEnabled</string>
+			<key>label</key>
+			<string>Show Time</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>PostNotification</key>
+			<string>nl.d4ni.statusbardateprefs/settingschanged</string>
+			<key>default</key>
+			<string>1</string>
+			<key>defaults</key>
+			<string>nl.d4ni.statusbardateprefs</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>timeLocation</string>
+			<key>label</key>
+			<string>Time location</string>
+			<key>validTitles</key>
+			<array>
+				<string>Right</string>
+				<string>Left</string>
+			</array>
+			<key>validValues</key>
+		  <array>
+				<string>1</string>
+				<string>2</string>
 			</array>
 		</dict>
 		<dict>
